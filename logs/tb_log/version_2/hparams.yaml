@@ -1,0 +1,57 @@
+adam_epsilon: 1.0e-08
+early_stop_callback: false
+eval_batch_size: 4
+fp_16: false
+gradient_accumulation_steps: 64
+hparams:
+  adam_epsilon: 1.0e-08
+  early_stop_callback: false
+  eval_batch_size: 4
+  fp_16: false
+  gradient_accumulation_steps: 64
+  learning_rate: 0.0003
+  limit_train_batches: false
+  max_grad_norm: 1.0
+  max_seq_length: 512
+  model_name_or_path: t5-base
+  n_gpu: 1
+  num_train_epochs: 2
+  num_train_size: 45000
+  opt_level: '01'
+  output_dir: ./output
+  sanity_val: true
+  seed: 42
+  test_dir: ./tweeteval/datasets/emoji/test_text.txt
+  test_label_dir: ./tweeteval/datasets/emoji/test_labels.txt
+  tokenizer_name_or_path: t5-base
+  train_batch_size: 4
+  train_dir: ./tweeteval/datasets/emoji/train_text.txt
+  train_label_dir: ./tweeteval/datasets/emoji/train_labels.txt
+  val_dir: ./tweeteval/datasets/emoji/val_text.txt
+  val_every_n_epochs: 1
+  val_label_dir: ./tweeteval/datasets/emoji/val_labels.txt
+  warmup_steps: 0
+  weight_decay: 0.0
+learning_rate: 0.0003
+limit_train_batches: false
+max_grad_norm: 1.0
+max_seq_length: 512
+model_name_or_path: t5-base
+n_gpu: 1
+num_train_epochs: 2
+num_train_size: 45000
+opt_level: '01'
+output_dir: ./output
+sanity_val: true
+seed: 42
+test_dir: ./tweeteval/datasets/emoji/test_text.txt
+test_label_dir: ./tweeteval/datasets/emoji/test_labels.txt
+tokenizer_name_or_path: t5-base
+train_batch_size: 4
+train_dir: ./tweeteval/datasets/emoji/train_text.txt
+train_label_dir: ./tweeteval/datasets/emoji/train_labels.txt
+val_dir: ./tweeteval/datasets/emoji/val_text.txt
+val_every_n_epochs: 1
+val_label_dir: ./tweeteval/datasets/emoji/val_labels.txt
+warmup_steps: 0
+weight_decay: 0.0
